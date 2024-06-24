@@ -11,4 +11,4 @@ This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) 
 ## Internship Offer Letter :
 For details about the internship program, please refer to the [Internship Offer Letter](./Internship_Offer_Letter.pdf) included in this repository.
 
-Feel free to explore the code and projects. If you have any questions or feedback, please contact @0xSaikat.
+Feel free to explore the code and projects. If you have any questions or feedback, please contact [@0xSaikat](https://www.linkedin.com/in/0xSaikat/).
