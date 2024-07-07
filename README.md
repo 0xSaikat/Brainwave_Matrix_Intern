@@ -1,7 +1,7 @@
 # Brainwave_Matrix_Intern Repository
 Welcome to the Brainwave_Matrix_Intern repository!
 
-This repository showcases code and project materials developed by @0xSaikat during an internship at Brainwave Matrix Solutions. It includes tasks and projects assigned as part of the internship program, demonstrating skills in Cybersecurity and Ethical Hacking.
+This repository showcases code and project materials developed by [@0xSaikat](https://www.linkedin.com/in/0xSaikat/) during an internship at Brainwave Matrix Solutions. It includes tasks and projects assigned as part of the internship program, demonstrating skills in Cybersecurity and Ethical Hacking.
 
 ## Tasks Completed :
 - Task 1 : 
