@@ -8,6 +8,10 @@ This repository showcases code and project materials developed by @0xSaikat duri
 
 - Development of DP-Links: A Multi-Layer Phishing Detection Tool in Python
  - Additional phishing url file download(https://drive.google.com/file/d/1UK_1b4qOQcEf-4r8OJZypsAYEMbA52t-/view?usp=sharing)
+
+- Task 2 :
+
+- Development of PassCheck: A Python Password Strength Checker
 ## License :
 This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
