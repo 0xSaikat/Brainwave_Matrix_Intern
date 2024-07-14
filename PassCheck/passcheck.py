@@ -2,7 +2,6 @@ import re
 from colorama import Fore, Style, init
 import pyfiglet
 
-# Initialize colorama
 init(autoreset=True)
 
 def password_strength(password):
@@ -10,42 +9,35 @@ def password_strength(password):
     complexity = 0
     suggestions = []
     
-    # Length check
     if length >= 8:
         complexity += 1
     else:
         suggestions.append("🔸 " + Fore.YELLOW + "Make your password at least 8 characters long.")
 
-    # Check for lowercase letters
     if re.search(r"[a-z]", password):
         complexity += 1
     else:
         suggestions.append("🔸 " + Fore.YELLOW + "Include at least one lowercase letter.")
 
-    # Check for uppercase letters
     if re.search(r"[A-Z]", password):
         complexity += 1
     else:
         suggestions.append("🔸 " + Fore.YELLOW + "Include at least one uppercase letter.")
 
-    # Check for digits
     if re.search(r"\d", password):
         complexity += 1
     else:
         suggestions.append("🔸 " + Fore.YELLOW + "Include at least one digit.")
 
-    # Check for special characters
     if re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):
         complexity += 1
     else:
         suggestions.append("🔸 " + Fore.YELLOW + "Include at least one special character (e.g., !, @, #, $, etc.).")
 
-    # Check for sequences of the same character
     if re.search(r"(.)\1{2,}", password):
         complexity -= 1
         suggestions.append("🔸 " + Fore.YELLOW + "Avoid sequences of the same character (e.g., 'aaa').")
 
-    # Feedback on password strength
     if complexity == 0:
         strength = "Very Weak"
         color = Fore.RED
@@ -95,10 +87,10 @@ def main():
             print(Fore.CYAN + "Goodbye! 👋")
             break
         
-        print()  # Add a blank line after entering the password
+        print()  
         
         strength, suggestions = password_strength(user_password)
-        print(strength + "\n")  # Add a blank line after displaying password strength
+        print(strength + "\n")  
         
         if suggestions:
             print("Suggestions to improve your password:")
@@ -107,7 +99,7 @@ def main():
         else:
             print(Fore.GREEN + "✅ Your password is strong enough.")
         
-        print()  # Add a blank line for separation between password checks
+        print()  
 
 if __name__ == "__main__":
     main()
